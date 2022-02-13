@@ -1,8 +1,8 @@
-package net.proselyte.springsecuritydemo.security;
+package com.company.springsecuritydemo.security;
 
 import lombok.Data;
-import net.proselyte.springsecuritydemo.model.Status;
-import net.proselyte.springsecuritydemo.model.User;
+import com.company.springsecuritydemo.model.Status;
+import com.company.springsecuritydemo.model.User;
 import org.springframework.security.core.GrantedAuthority;
 import org.springframework.security.core.authority.SimpleGrantedAuthority;
 import org.springframework.security.core.userdetails.UserDetails;

@@ -1,4 +1,4 @@
-package net.proselyte.springsecuritydemo.security;
+package com.company.springsecuritydemo.security;
 
 import io.jsonwebtoken.*;
 import org.springframework.beans.factory.annotation.Qualifier;

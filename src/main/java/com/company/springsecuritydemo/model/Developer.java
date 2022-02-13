@@ -1,4 +1,4 @@
-package net.proselyte.springsecuritydemo.model;
+package com.company.springsecuritydemo.model;
 
 import lombok.AllArgsConstructor;
 import lombok.Data;

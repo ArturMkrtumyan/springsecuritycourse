@@ -1,8 +1,8 @@
-package net.proselyte.springsecuritydemo.rest;
+package com.company.springsecuritydemo.rest;
 
-import net.proselyte.springsecuritydemo.model.User;
-import net.proselyte.springsecuritydemo.repository.UserRepository;
-import net.proselyte.springsecuritydemo.security.JwtTokenProvider;
+import com.company.springsecuritydemo.model.User;
+import com.company.springsecuritydemo.repository.UserRepository;
+import com.company.springsecuritydemo.security.JwtTokenProvider;
 import org.springframework.http.HttpStatus;
 import org.springframework.http.ResponseEntity;
 import org.springframework.security.authentication.AuthenticationManager;

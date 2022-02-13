@@ -1,4 +1,4 @@
-package net.proselyte.springsecuritydemo.rest;
+package com.company.springsecuritydemo.rest;
 
 import lombok.Data;
 

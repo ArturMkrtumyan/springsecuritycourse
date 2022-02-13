@@ -1,6 +1,6 @@
-package net.proselyte.springsecuritydemo.rest;
+package com.company.springsecuritydemo.rest;
 
-import net.proselyte.springsecuritydemo.model.Developer;
+import com.company.springsecuritydemo.model.Developer;
 import org.springframework.security.access.prepost.PreAuthorize;
 import org.springframework.web.bind.annotation.*;
 

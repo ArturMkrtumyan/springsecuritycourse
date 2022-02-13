@@ -1,6 +1,6 @@
-package net.proselyte.springsecuritydemo.config;
+package com.company.springsecuritydemo.config;
 
-import net.proselyte.springsecuritydemo.security.JwtConfigurer;
+import com.company.springsecuritydemo.security.JwtConfigurer;
 import org.springframework.context.annotation.Bean;
 import org.springframework.context.annotation.Configuration;
 import org.springframework.security.authentication.AuthenticationManager;

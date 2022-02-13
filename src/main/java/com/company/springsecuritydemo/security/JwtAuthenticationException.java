@@ -1,4 +1,4 @@
-package net.proselyte.springsecuritydemo.security;
+package com.company.springsecuritydemo.security;
 
 import lombok.Getter;
 import org.springframework.http.HttpStatus;

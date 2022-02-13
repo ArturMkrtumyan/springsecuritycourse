@@ -1,4 +1,4 @@
-package net.proselyte.springsecuritydemo;
+package com.company.springsecuritydemo;
 
 import org.springframework.boot.SpringApplication;
 import org.springframework.boot.autoconfigure.SpringBootApplication;

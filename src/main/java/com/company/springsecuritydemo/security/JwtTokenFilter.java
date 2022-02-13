@@ -1,4 +1,4 @@
-package net.proselyte.springsecuritydemo.security;
+package com.company.springsecuritydemo.security;
 
 import org.springframework.security.core.Authentication;
 import org.springframework.security.core.context.SecurityContextHolder;

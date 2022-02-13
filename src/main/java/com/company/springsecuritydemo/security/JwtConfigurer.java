@@ -1,4 +1,4 @@
-package net.proselyte.springsecuritydemo.security;
+package com.company.springsecuritydemo.security;
 
 import org.springframework.security.config.annotation.SecurityConfigurerAdapter;
 import org.springframework.security.config.annotation.web.builders.HttpSecurity;

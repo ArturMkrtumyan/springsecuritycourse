@@ -1,7 +1,7 @@
-package net.proselyte.springsecuritydemo.security;
+package com.company.springsecuritydemo.security;
 
-import net.proselyte.springsecuritydemo.model.User;
-import net.proselyte.springsecuritydemo.repository.UserRepository;
+import com.company.springsecuritydemo.repository.UserRepository;
+import com.company.springsecuritydemo.model.User;
 import org.springframework.beans.factory.annotation.Autowired;
 import org.springframework.security.core.userdetails.UserDetails;
 import org.springframework.security.core.userdetails.UserDetailsService;

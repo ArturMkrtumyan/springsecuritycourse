@@ -1,6 +1,6 @@
-package net.proselyte.springsecuritydemo.repository;
+package com.company.springsecuritydemo.repository;
 
-import net.proselyte.springsecuritydemo.model.User;
+import com.company.springsecuritydemo.model.User;
 import org.springframework.data.jpa.repository.JpaRepository;
 
 import java.util.Optional;
