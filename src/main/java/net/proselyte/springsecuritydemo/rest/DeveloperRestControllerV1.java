@@ -11,10 +11,10 @@ import java.util.stream.Stream;
 @RestController
 @RequestMapping("/api/v1/developers")
 public class DeveloperRestControllerV1 {
-    private List<Developer> DEVELOPERS = Stream.of(
+    private final List<Developer> DEVELOPERS = Stream.of(
             new Developer(1L, "Ivan", "Ivanov"),
-            new Developer(2L, "Sergey", "Sergeev"),
-            new Developer(3L, "Petr", "Petrov")
+            new Developer(2L, "Kolya", "Ivanov"),
+            new Developer(3L, "Sergey", "Sergeev")
     ).collect(Collectors.toList());
 
     @GetMapping
@@ -25,7 +25,8 @@ public class DeveloperRestControllerV1 {
     @GetMapping("/{id}")
     @PreAuthorize("hasAuthority('developers:read')")
     public Developer getById(@PathVariable Long id) {
-        return DEVELOPERS.stream().filter(developer -> developer.getId().equals(id))
+        return DEVELOPERS.stream()
+                .filter(developer -> developer.getId().equals(id))
                 .findFirst()
                 .orElse(null);
     }
